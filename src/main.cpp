@@ -16,7 +16,7 @@ int main() {
             {5,6},      //8
             {0,7}       //9
     };
-    srand( time(0) );
+    srand( time(0)  );
     for (int i=0; i<5; i++) {
         int start = rand() % 9;
         int finish = rand() % 9;
